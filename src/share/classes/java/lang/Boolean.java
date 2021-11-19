@@ -279,4 +279,9 @@ public final class Boolean implements java.io.Serializable,
     private static boolean toBoolean(String name) {
         return ((name != null) && name.equalsIgnoreCase("true"));
     }
+    
+    public static boolean logicalNot(boolean b) {
+      return !b;
+    }
+    
 }
